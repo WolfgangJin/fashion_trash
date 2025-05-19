@@ -1,0 +1,8 @@
+# Ignore all files in the dist folder
+dist/
+
+# Ignore all .spec files
+*.spec
+
+# Ignore all .ico files
+*.ico
