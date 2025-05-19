@@ -135,7 +135,7 @@ class WeChatAutoReply:
         if os.path.exists(bgm_path):
             try:
                 mixer.music.load(bgm_path)
-                mixer.music.set_volume(0.2)  # 设置音量为50%
+                mixer.music.set_volume(0.1)  # 设置音量为50%
                 mixer.music.play()
                 self.write_log("正在播放提醒音乐...")
             except Exception as e:
